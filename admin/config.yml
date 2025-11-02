@@ -1,5 +1,3 @@
-mkdir -p static/admin
-cat > static/admin/config.yml << 'EOF'
 backend:
   name: github
   repo: realfaq/hugo-ivaness
@@ -40,4 +38,3 @@ collections:
       - {label: "Заголовок", name: "title", widget: "string"}
       - {label: "Тип", name: "type", widget: "hidden", default: "page"}
       - {label: "Текст", name: "body", widget: "markdown"}
-EOF
