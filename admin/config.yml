@@ -1,0 +1,43 @@
+mkdir -p static/admin
+cat > static/admin/config.yml << 'EOF'
+backend:
+  name: github
+  repo: realfaq/hugo-ivaness
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "posts"
+    label: "Посты"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    fields:
+      - {label: "Заголовок", name: "title", widget: "string"}
+      - {label: "Дата", name: "date", widget: "datetime"}
+      - {label: "URL", name: "url", widget: "string", required: false}
+      - {label: "Главная картинка", name: "featuredImage", widget: "image", required: false}
+      - {label: "Черновик", name: "draft", widget: "boolean", default: false, required: false}
+      - {label: "Текст", name: "body", widget: "markdown"}
+  
+  - name: "pages"
+    label: "Страницы"
+    folder: "content"
+    create: true
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    filter: {field: "type", value: "page"}
+    fields:
+      - {label: "Заголовок", name: "title", widget: "string"}
+      - {label: "Тип", name: "type", widget: "hidden", default: "page"}
+      - {label: "Текст", name: "body", widget: "markdown"}
+EOF
