@@ -5,8 +5,8 @@ backend:
   base_url: https://api.netlify.com
   auth_endpoint: auth
 
-media_folder: "static/uploads"
-public_folder: "/uploads"
+media_folder: "static/images"
+public_folder: "/images"
 
 collections:
   - name: "posts"
@@ -19,8 +19,10 @@ collections:
     public_folder: ""
     fields:
       - {label: "Заголовок", name: "title", widget: "string"}
+      - {label: "Рубрики", name: "categories", widget: "list", required: false}
       - {label: "Дата", name: "date", widget: "datetime"}
       - {label: "URL", name: "url", widget: "string", required: false}
+      - {label: "Описание", name: "description", widget: "text", required: false}
       - {label: "Главная картинка", name: "featuredImage", widget: "image", required: false}
       - {label: "Черновик", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Текст", name: "body", widget: "markdown"}
@@ -37,4 +39,5 @@ collections:
     fields:
       - {label: "Заголовок", name: "title", widget: "string"}
       - {label: "Тип", name: "type", widget: "hidden", default: "page"}
+      - {label: "URL", name: "url", widget: "string", required: false}
       - {label: "Текст", name: "body", widget: "markdown"}
