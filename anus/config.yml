@@ -35,6 +35,7 @@ collections:
       - {label: "Главная картинка", name: "featuredImage", widget: "image", required: false}
       - {label: "Превью картинка", name: "featuredImagePreview", widget: "image", required: false}
       - {label: "OG Image (для соцсетей)", name: "images", widget: "list", required: false}
+      - {label: "Light Gallery", name: "lightgallery", widget: "boolean", default: false, required: false}
       - {label: "Черновик", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Скрыть из поиска", name: "hiddenFromSearch", widget: "boolean", default: false, required: false}
       - {label: "Скрыть со главной", name: "hiddenFromHomePage", widget: "boolean", default: false, required: false}
@@ -68,6 +69,7 @@ collections:
       - {label: "Главная картинка", name: "featuredImage", widget: "image", required: false}
       - {label: "Превью картинка", name: "featuredImagePreview", widget: "image", required: false}
       - {label: "OG Image (для соцсетей)", name: "images", widget: "list", required: false}
+      - {label: "Light Gallery", name: "lightgallery", widget: "boolean", default: false, required: false}
       - {label: "Черновик", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Скрыть из поиска", name: "hiddenFromSearch", widget: "boolean", default: false, required: false}
       - {label: "Скрыть со главной", name: "hiddenFromHomePage", widget: "boolean", default: false, required: false}
