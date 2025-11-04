@@ -2,8 +2,9 @@ backend:
   name: github
   repo: realfaq/hugo-ivaness
   branch: main
-  base_url: https://api.netlify.com
+  base_url: https://oauth.sveltia.app
   auth_endpoint: auth
+  client_id: Ov23libMEbkGzExc1UfX
 
 media_folder: "static/images"
 public_folder: "/images"
