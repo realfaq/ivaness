@@ -18,13 +18,31 @@ collections:
     media_folder: ""
     public_folder: ""
     fields:
-      - {label: "Заголовок", name: "title", widget: "string"}
+      - {label: "Заголовок Title", name: "title", widget: "string"}
+      - {label: "Заголовок H1", name: "heading", widget: "string", required: false}
+      - {label: "Подзаголовок", name: "subtitle", widget: "string", required: false}
+      - {label: "Описание для SEO", name: "description", widget: "text", required: false}
+      - {label: "Анонс", name: "summary", widget: "text", required: false}
+      - {label: "Ключевые слова", name: "keywords", widget: "list", required: false}
       - {label: "Рубрики", name: "categories", widget: "list", required: false}
-      - {label: "Дата", name: "date", widget: "datetime"}
+      - {label: "Серия постов", name: "series", widget: "list", required: false}
+      - {label: "Дата публикации", name: "date", widget: "datetime"}
+      - {label: "Дата обновления", name: "lastmod", widget: "datetime", required: false}
       - {label: "URL", name: "url", widget: "string", required: false}
-      - {label: "Описание", name: "description", widget: "text", required: false}
+      - {label: "Канонический URL", name: "canonicalURL", widget: "string", required: false}
+      - {label: "Автор", name: "author", widget: "string", required: false, default: "IvanesS"}
+      - {label: "Время чтения (мин)", name: "readingTime", widget: "number", required: false}
       - {label: "Главная картинка", name: "featuredImage", widget: "image", required: false}
+      - {label: "Превью картинка", name: "featuredImagePreview", widget: "image", required: false}
+      - {label: "OG Image (для соцсетей)", name: "images", widget: "list", required: false}
       - {label: "Черновик", name: "draft", widget: "boolean", default: false, required: false}
+      - {label: "Скрыть из поиска", name: "hiddenFromSearch", widget: "boolean", default: false, required: false}
+      - {label: "Скрыть со главной", name: "hiddenFromHomePage", widget: "boolean", default: false, required: false}
+      - {label: "Вес (порядок)", name: "weight", widget: "number", required: false}
+      - {label: "Показать оглавление", name: "toc", widget: "boolean", default: true, required: false}
+      - {label: "Автоматическое оглавление", name: "auto", widget: "boolean", default: true, required: false}
+      - {label: "Алиасы (URL для редиректа)", name: "aliases", widget: "list", required: false}
+      - {label: "Внешние комментарии", name: "external_comments", widget: "list", required: false}
       - {label: "Текст", name: "body", widget: "markdown"}
   
   - name: "pages"
@@ -37,7 +55,29 @@ collections:
     public_folder: ""
     filter: {field: "type", value: "page"}
     fields:
-      - {label: "Заголовок", name: "title", widget: "string"}
       - {label: "Тип", name: "type", widget: "hidden", default: "page"}
+      - {label: "Заголовок Title", name: "title", widget: "string"}
+      - {label: "Заголовок H1", name: "heading", widget: "string", required: false}
+      - {label: "Подзаголовок", name: "subtitle", widget: "string", required: false}
+      - {label: "Описание для SEO", name: "description", widget: "text", required: false}
+      - {label: "Анонс", name: "summary", widget: "text", required: false}
+      - {label: "Ключевые слова", name: "keywords", widget: "list", required: false}
       - {label: "URL", name: "url", widget: "string", required: false}
+      - {label: "Канонический URL", name: "canonicalURL", widget: "string", required: false}
+      - {label: "Время чтения (мин)", name: "readingTime", widget: "number", required: false}
+      - {label: "Главная картинка", name: "featuredImage", widget: "image", required: false}
+      - {label: "Превью картинка", name: "featuredImagePreview", widget: "image", required: false}
+      - {label: "OG Image (для соцсетей)", name: "images", widget: "list", required: false}
+      - {label: "Черновик", name: "draft", widget: "boolean", default: false, required: false}
+      - {label: "Скрыть из поиска", name: "hiddenFromSearch", widget: "boolean", default: false, required: false}
+      - {label: "Скрыть со главной", name: "hiddenFromHomePage", widget: "boolean", default: false, required: false}
+      - {label: "Вес (порядок)", name: "weight", widget: "number", required: false}
+      - {label: "Алиасы (URL для редиректа)", name: "aliases", widget: "list", required: false}
+      - {label: "Внешние комментарии", name: "external_comments", widget: "list", required: false}
+      - {label: "Добавить в меню", name: "menu", widget: "object", required: false, fields: [
+          {label: "Название меню", name: "main", widget: "object", fields: [
+            {label: "Название", name: "name", widget: "string"},
+            {label: "Вес", name: "weight", widget: "number"}
+          ]}
+       ]}
       - {label: "Текст", name: "body", widget: "markdown"}
