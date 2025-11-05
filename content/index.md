@@ -9,7 +9,7 @@
   
     - 
       <h3>
-        [Астрология](https://ivaness.com/astrology/)
+        [astrology](https://ivaness.com/astrology/)
       </h3>
     
     
@@ -38,26 +38,26 @@
     
     - 
       <h3>
-        [Дизайн Человека](https://ivaness.com/humandesign/)
+        [humandesign](https://ivaness.com/humandesign/)
       </h3>
     
     
     - 
       
         - 
-          [Сидерический Дизайн Человека: почему этот расчет бодиграфа — чушь, и почему он прекрасен](https://ivaness.com/sidericheskij-dizajn-cheloveka/)
+          [Сидерический humandesign: почему этот расчет бодиграфа — чушь, и почему он прекрасен](https://ivaness.com/sidericheskij-dizajn-cheloveka/)
         
         - 
           [Гомогенизированные аналитики Дизайна Человека. Сертификаты и образование в Human Design](https://ivaness.com/analitik-dizajna-cheloveka/)
         
         - 
-          [Рефлектор и Дизайн Человека: описание. Почему рефлекторам не становится легче от Хьюман Дизайна. Как сделать, чтобы он помог?](https://ivaness.com/dizajn-cheloveka-reflektor/)
+          [Рефлектор и humandesign: описание. Почему рефлекторам не становится легче от Хьюман Дизайна. Как сделать, чтобы он помог?](https://ivaness.com/dizajn-cheloveka-reflektor/)
         
         - 
           [Манифестор — «тип личности» в Дизайне Человека: описание, кто это простыми словами](https://ivaness.com/tip-lichnosti-manifestor-dizain-cheloveka/)
         
         - 
-          [Дизайн Человека — совместимость: композит бодиграфов или отношения на уровне профилей и типов?](https://ivaness.com/kompozit-dizajn-cheloveka-sovmestimost/)
+          [humandesign — совместимость: композит бодиграфов или отношения на уровне профилей и типов?](https://ivaness.com/kompozit-dizajn-cheloveka-sovmestimost/)
         
         - 
           [Деньги в Дизайне Человека, работа и как зарабатывать? 3 места, где посмотреть финансы в бодиграфе](https://ivaness.com/dizajn-cheloveka-kak-zarabatyvat-dengi/)
@@ -67,7 +67,7 @@
     
     - 
       <h3>
-        [Психология](https://ivaness.com/psychology/)
+        [psychology](https://ivaness.com/psychology/)
       </h3>
     
     
@@ -114,7 +114,7 @@
     
     - 
       <h3>
-        [Путешествие в осознанность](https://ivaness.com/travel/)
+        [travel](https://ivaness.com/travel/)
       </h3>
     
     
@@ -143,7 +143,7 @@
     
     - 
       <h3>
-        [Эмпирический опыт](https://ivaness.com/life/)
+        [life](https://ivaness.com/life/)
       </h3>
     
     
