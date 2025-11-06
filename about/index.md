@@ -1,9 +1,6 @@
 # Иванесс — кто это?
 
-
-{{< style "float:left; margin-right:20px; margin-bottom:10px;" >}}
-{{< image src="ivaness-pizma.jpg" class="left" caption="Нюхаю пижму" alt="Иванесс нюхает пижму" title="Иванесс нюхает пижму" width="50%" >}}
-{{< /style >}}
+{{< image src="ivaness-pizma.jpg" class="float-left" caption="Нюхаю пижму" alt="Иванесс нюхает пижму" title="Иванесс нюхает пижму" width="50%" >}}
 
 Вы можете меня знать (а можете и пока нет) как основателя портала «[FAQ по реальности](https://realfaq.org)» и его [базовой концепции](https://ivaness.com/koncepciya-realnost/). Хотя в жизни моей хватало странного и прежде.
 
